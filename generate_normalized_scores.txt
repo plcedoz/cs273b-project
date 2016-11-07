@@ -1,0 +1,42 @@
+
+#Create the normalized files
+
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign1_minP_normoutnoavg_rep1.txt HEPG2/HepG2_ScaleUpDesign1_minP_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign1_minP_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign1_minP_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign1_minP_normoutnoavg_rep2.txt HEPG2/HepG2_ScaleUpDesign1_minP_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign1_minP_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign1_minP_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign1_SV40P_normoutnoavg_rep1.txt HEPG2/HepG2_ScaleUpDesign1_SV40P_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign1_SV40P_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign1_SV40P_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign1_SV40P_normoutnoavg_rep2.txt HEPG2/HepG2_ScaleUpDesign1_SV40P_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign1_SV40P_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign1_SV40P_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign2_minP_normoutnoavg_rep1.txt HEPG2/HepG2_ScaleUpDesign2_minP_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign2_minP_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign2_minP_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign2_minP_normoutnoavg_rep2.txt HEPG2/HepG2_ScaleUpDesign2_minP_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign2_minP_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign2_minP_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign2_SV40P_normoutnoavg_rep1.txt HEPG2/HepG2_ScaleUpDesign2_SV40P_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign2_SV40P_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign2_SV40P_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/HepG2_ScaleUpDesign2_SV40P_normoutnoavg_rep2.txt HEPG2/HepG2_ScaleUpDesign2_SV40P_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign2_SV40P_Plasmid.counts normalized_scores/avg/HepG2_ScaleUpDesign2_SV40P_normoutavg_rep2.txt
+
+
+
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign1_minP_normoutnoavg_rep1.txt K562/K562_ScaleUpDesign1_minP_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign1_minP_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign1_minP_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign1_minP_normoutnoavg_rep2.txt K562/K562_ScaleUpDesign1_minP_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign1_minP_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign1_minP_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign1_SV40P_normoutnoavg_rep1.txt K562/K562_ScaleUpDesign1_SV40P_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign1_SV40P_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign1_SV40P_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign1_SV40P_normoutnoavg_rep2.txt K562/K562_ScaleUpDesign1_SV40P_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign1_SV40P_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign1_SV40P_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign2_minP_normoutnoavg_rep1.txt K562/K562_ScaleUpDesign2_minP_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign2_minP_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign2_minP_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign2_minP_normoutnoavg_rep2.txt K562/K562_ScaleUpDesign2_minP_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign2_minP_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign2_minP_normoutavg_rep2.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign2_SV40P_normoutnoavg_rep1.txt K562/K562_ScaleUpDesign2_SV40P_mRNA_Rep1.counts DNACOUNTS/ScaleUpDesign2_SV40P_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign2_SV40P_normoutavg_rep1.txt
+
+java -mx2000M -jar SHARPR.jar normalize -n normalized_scores/noavg/K562_ScaleUpDesign2_SV40P_normoutnoavg_rep2.txt K562/K562_ScaleUpDesign2_SV40P_mRNA_Rep2.counts DNACOUNTS/ScaleUpDesign2_SV40P_Plasmid.counts normalized_scores/avg/K562_ScaleUpDesign2_SV40P_normoutavg_rep2.txt
+
+
+
+
